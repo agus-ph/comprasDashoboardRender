@@ -15,7 +15,7 @@ from dateutil.relativedelta import relativedelta
 # DATA WRANGLING RESUMEN DE CUENTAS PARA RANKING DE PROVEEDORES
 
 df_cta_cte = pd.read_excel(
-    "C:/Users/Agus/Desktop/Coding/Python/dashenv/archivos/comprasdash/ranking proveedores.xlsx"
+    "ranking proveedores.xlsx"
 )
 
 df_cta_cte["IMPORTE"] = df_cta_cte["DEBE"] + df_cta_cte["HABER"]
