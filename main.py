@@ -80,6 +80,7 @@ dff_legajo = df_proveed.groupby("Legajo").count().reset_index(level=0)
 app = dash.Dash(
     __name__,
 )
+server = app.server
 
 app.layout = dbc.Container(
     [
