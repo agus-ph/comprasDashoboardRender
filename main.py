@@ -26,7 +26,7 @@ df_cta_cte = df_cta_cte[["NOMBR_PRO", "FECHA_EMIS", "IMPORTE"]]
 # DATA WRANGLING SOLICITUDES DE PEDIDO
 
 df_pedidos = pd.read_excel(
-    "C:/Users/Agus/Desktop/Coding/Python/dashenv/archivos/comprasdash/Solicitudes de Pedido.xlsx",
+    "Solicitudes de Pedido.xlsx",
     header=3,
 )
 
@@ -37,7 +37,7 @@ df_pedidos = df_pedidos[["Fecha", "Sector", "Tipo", "Estado"]]
 # DATA WRANGLING LISTADO PROVEEDORES
 
 df_proveed = pd.read_excel(
-    "C:/Users/Agus/Desktop/Coding/Python/dashenv/archivos/comprasdash/evaluación proveedores.xlsx",
+    "evaluación proveedores.xlsx",
     header=4,
 )
 
